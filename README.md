@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # WorkoutTracker
 Solo leveling gamify
 =======
@@ -28,6 +28,61 @@ Solo leveling gamify
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+
+## Technology
+1. Framework & Core Backend
+
+- NestJS (@nestjs/common, @nestjs/core, @nestjs/platform-express) - Framework backend berbasis Node.js dengan TypeScript.
+
+2. GraphQL API
+
+- Apollo Server (@apollo/server, apollo-server-express) - Implementasi GraphQL.
+
+- NestJS GraphQL (@nestjs/apollo, @nestjs/graphql) - Integrasi GraphQL dengan NestJS.
+
+- GraphQL (graphql) - Library utama untuk GraphQL.
+
+3. Database & ORM
+
+- TypeORM (@nestjs/typeorm, pg, reflect-metadata) - ORM untuk PostgreSQL.
+
+4. Authentication & Security
+
+- JWT Authentication (@nestjs/jwt, passport-jwt) - Autentikasi berbasis token JWT.
+
+- BcryptJS (bcryptjs) - Hashing password.
+
+- Helmet (helmet) - Middleware keamanan.
+
+- Rate Limiting (express-rate-limit) - Perlindungan dari brute-force.
+
+5. Caching & Queue
+
+- Redis (redis, ioredis) - Digunakan untuk caching atau message queue.
+
+6. Development & Testing
+
+- Linting & Formatting
+
+    - eslint, eslint-config-prettier, eslint-plugin-prettier, prettier, typescript-eslint - Menjaga kualitas kode.
+
+- Testing
+
+    - jest, ts-jest, @types/jest, @nestjs/testing, supertest, @types/supertest - Unit testing dan E2E testing.
+
+- Build Tools
+
+    - ts-node, ts-loader, tsconfig-paths, source-map-support, @swc/cli, @swc/core - Untuk kompilasi dan eksekusi TypeScript.
+
+- NestJS CLI & Schematics
+
+    - @nestjs/cli, @nestjs/schematics - Membantu dalam pengembangan proyek NestJS.
+
+7. Environment & Utility
+
+- Node.js & TypeScript (@types/node, typescript) - Bahasa utama.
+
+- Globals (globals) - Library untuk variabel global dalam Node.js.
 
 ## Project setup
 
@@ -87,6 +142,7 @@ Check out a few resources that may come in handy when working with NestJS:
 - To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
 - Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
 
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
@@ -100,4 +156,3 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
->>>>>>> 3ee6dbc (File awal)
