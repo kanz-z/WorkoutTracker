@@ -30,11 +30,11 @@ Solo leveling gamify
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Technology
-1. Framework & Core Backend
+### 1. Framework & Core Backend
 
 - NestJS (@nestjs/common, @nestjs/core, @nestjs/platform-express) - Framework backend berbasis Node.js dengan TypeScript.
 
-2. GraphQL API
+### 2. GraphQL API
 
 - Apollo Server (@apollo/server, apollo-server-express) - Implementasi GraphQL.
 
@@ -42,11 +42,11 @@ Solo leveling gamify
 
 - GraphQL (graphql) - Library utama untuk GraphQL.
 
-3. Database & ORM
+### 3. Database & ORM
 
 - TypeORM (@nestjs/typeorm, pg, reflect-metadata) - ORM untuk PostgreSQL.
 
-4. Authentication & Security
+### 4. Authentication & Security
 
 - JWT Authentication (@nestjs/jwt, passport-jwt) - Autentikasi berbasis token JWT.
 
@@ -56,11 +56,11 @@ Solo leveling gamify
 
 - Rate Limiting (express-rate-limit) - Perlindungan dari brute-force.
 
-5. Caching & Queue
+### 5. Caching & Queue
 
 - Redis (redis, ioredis) - Digunakan untuk caching atau message queue.
 
-6. Development & Testing
+### 6. Development & Testing
 
 - Linting & Formatting
 
@@ -78,7 +78,7 @@ Solo leveling gamify
 
     - @nestjs/cli, @nestjs/schematics - Membantu dalam pengembangan proyek NestJS.
 
-7. Environment & Utility
+### 7. Environment & Utility
 
 - Node.js & TypeScript (@types/node, typescript) - Bahasa utama.
 
