@@ -32,57 +32,57 @@ Solo leveling gamify
 ## Technology
 ### 1. Framework & Core Backend
 
-- NestJS (@nestjs/common, @nestjs/core, @nestjs/platform-express) - Framework backend berbasis Node.js dengan TypeScript.
+- NestJS (@nestjs/common, @nestjs/core, @nestjs/platform-express) - Node.js backend framework with TypeScript.
 
 ### 2. GraphQL API
 
-- Apollo Server (@apollo/server, apollo-server-express) - Implementasi GraphQL.
+- Apollo Server (@apollo/server, apollo-server-express) - GraphQL implementation.
 
-- NestJS GraphQL (@nestjs/apollo, @nestjs/graphql) - Integrasi GraphQL dengan NestJS.
+- NestJS GraphQL (@nestjs/apollo, @nestjs/graphql) - GraphQL integration with NestJS.
 
-- GraphQL (graphql) - Library utama untuk GraphQL.
+- GraphQL (graphql) - Core GraphQL library.
 
 ### 3. Database & ORM
 
-- TypeORM (@nestjs/typeorm, pg, reflect-metadata) - ORM untuk PostgreSQL.
+- TypeORM (@nestjs/typeorm, pg, reflect-metadata) - ORM for PostgreSQL.
 
 ### 4. Authentication & Security
 
-- JWT Authentication (@nestjs/jwt, passport-jwt) - Autentikasi berbasis token JWT.
+- JWT Authentication (@nestjs/jwt, passport-jwt) - Token-based authentication using JWT.
 
-- BcryptJS (bcryptjs) - Hashing password.
+- BcryptJS (bcryptjs) - Password hashing.
 
-- Helmet (helmet) - Middleware keamanan.
+- Helmet (helmet) - Security middleware.
 
-- Rate Limiting (express-rate-limit) - Perlindungan dari brute-force.
+- Rate Limiting (express-rate-limit) - Protection against brute-force attacks.
 
 ### 5. Caching & Queue
 
-- Redis (redis, ioredis) - Digunakan untuk caching atau message queue.
+- Redis (redis, ioredis) - Used for caching or message queue.
 
 ### 6. Development & Testing
 
 - Linting & Formatting
 
-    - eslint, eslint-config-prettier, eslint-plugin-prettier, prettier, typescript-eslint - Menjaga kualitas kode.
+    - eslint, eslint-config-prettier, eslint-plugin-prettier, prettier, typescript-eslint - Maintains code quality.
 
 - Testing
 
-    - jest, ts-jest, @types/jest, @nestjs/testing, supertest, @types/supertest - Unit testing dan E2E testing.
+    - jest, ts-jest, @types/jest, @nestjs/testing, supertest, @types/supertest - Unit testing and E2E testing.
 
 - Build Tools
 
-    - ts-node, ts-loader, tsconfig-paths, source-map-support, @swc/cli, @swc/core - Untuk kompilasi dan eksekusi TypeScript.
+    - ts-node, ts-loader, tsconfig-paths, source-map-support, @swc/cli, @swc/core - For compiling and executing TypeScript.
 
 - NestJS CLI & Schematics
 
-    - @nestjs/cli, @nestjs/schematics - Membantu dalam pengembangan proyek NestJS.
+    - @nestjs/cli, @nestjs/schematics - Helps in NestJS project development.
 
 ### 7. Environment & Utility
 
-- Node.js & TypeScript (@types/node, typescript) - Bahasa utama.
+- Node.js & TypeScript (@types/node, typescript) - Primary language.
 
-- Globals (globals) - Library untuk variabel global dalam Node.js.
+- Globals (globals) - Library for global variables in Node.js.
 
 ## Project setup
 
